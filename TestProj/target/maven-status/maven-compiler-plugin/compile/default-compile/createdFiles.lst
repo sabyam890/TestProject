@@ -1,0 +1,8 @@
+com\saby\controller\UserController.class
+com\saby\messages\UserDto.class
+com\saby\messages\UserLoginDto.class
+com\saby\messages\RegistrationRequest.class
+com\saby\messages\RegistrationResponse.class
+com\saby\service\UserService.class
+com\saby\messages\AddresDto.class
+com\saby\messages\UserDetailsDto.class
