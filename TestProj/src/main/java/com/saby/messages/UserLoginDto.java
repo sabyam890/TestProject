@@ -4,7 +4,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonTypeName;
 
-@JsonTypeName
+@JsonTypeName("loginCredentials")
 public class UserLoginDto {
 	
 	@JsonProperty("username")

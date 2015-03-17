@@ -7,7 +7,7 @@ import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonTypeName;
 
 
-@JsonTypeName
+@JsonTypeName("addres")
 public class AddresDto {
 	
 	@JsonProperty("addrline1")

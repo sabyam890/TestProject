@@ -4,10 +4,10 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonTypeName;
 
-@JsonTypeName
+@JsonTypeName("RegistrationRequest")
 public class RegistrationRequest {
 	
-@JsonProperty
+@JsonProperty("userDto")
 private UserDto userDto;
 @JsonIgnore
 public UserDto getUserDto() {

@@ -4,7 +4,7 @@ import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.annotate.JsonTypeName;
 
-@JsonTypeName
+@JsonTypeName("userDetails")
 public class UserDetailsDto {
 	
 	@JsonProperty("constituincy")
